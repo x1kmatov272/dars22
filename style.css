@@ -1,0 +1,150 @@
+@import url('https://fonts.googleapis.com/css2?family=Sofia+Sans:ital,wght@0,1..1000;1,1..1000&display=swap');
+*{
+    margin: 0 auto;
+    padding: 0;
+    box-sizing: border-box;
+    list-style: none;
+    font-family: Sofia Sans;
+}
+.perviy{
+    background: linear-gradient(105.54deg, #F4A764 -2.93%, #FFDEC2 72.14%);
+}
+.header{
+    padding: 54px 155px;
+    display: flex;
+    gap: 100px;
+    position: absolute;
+    z-index: 5;
+    top: -50px;
+
+}
+
+
+.nav{
+    display: flex;
+    justify-content: space-between;
+}
+.ul{
+    display: flex;
+    align-items: center;
+    gap: 90px;
+    font-weight: 500;
+    font-size: 24px;
+    line-height: 100%;
+    letter-spacing: 0%;
+}
+.btn{
+    width: 100px;
+    height: 64px;
+    gap: 10px;
+    background-color: black;
+    color: white;
+    border-radius: 50px;
+    font-weight: 500;
+    font-size: 24px;
+    line-height: 100%;
+    letter-spacing: 0%;
+}
+.text h1{
+    font-family: Sofia Sans;
+    font-weight: 900;
+    font-size: 76px;
+    line-height: 137%;
+    letter-spacing: -1%;
+    color: #FFFFFF;
+}
+.text h2{
+    font-weight: 900;
+    font-size: 52px;
+    line-height: 114%;
+    letter-spacing: -1%;
+    color: white;
+}
+.span{
+    color: black;
+}
+.text p{
+    font-weight: 600;
+    font-size: 24px;
+    line-height: 190%;
+    letter-spacing: 0%;
+    color: #1C1415CC;
+    width: 613px;
+    height: 138;
+}
+.sena{
+    color: white;
+    font-weight: 700;
+    font-size: 70px;
+    line-height: 137%;
+}
+.text{
+    display: flex;
+    flex-direction: column;
+}
+.obshiy {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    padding: 50px 155px;
+    gap: 100px;
+
+}
+.chasi {
+    flex: 1;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.chasi img {
+    max-width: 100%;
+    height: auto;
+}
+
+
+.slide1 {
+    background: linear-gradient(105.54deg, #F4A764 -2.93%, #FFDEC2 72.14%);
+}
+
+.slide2 {
+    background: linear-gradient(105.54deg, #6c757d -2.93%, #adb5bd 72.14%);
+}
+
+.slide3 {
+    background: linear-gradient(105.54deg, #20c997 -2.93%, #9be7c4 72.14%);
+}
+
+.slide4 {
+    background: linear-gradient(105.54deg, #fd7e79 -2.93%, #ffc9c9 72.14%);
+}
+
+
+.swiper-button-nazad,
+.swiper-button-sled {
+    width: 50px;
+    height: 50px;
+    border: 2px solid white;
+    border-radius: 50px;
+    color: white;
+    font-size: 24px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    border-radius: 50%;
+    position: absolute;
+    top: 50%;
+    z-index: 10;
+    transform: translateY(-50%);
+    cursor: pointer;
+}
+
+
+
+.swiper-button-nazad {
+    left: 30px;
+}
+
+.swiper-button-sled {
+    right: 30px;
+}
